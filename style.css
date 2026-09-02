@@ -1,0 +1,31 @@
+body {
+    background-color: #ffe066;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: orange;
+}
+
+p {
+    color: black;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+img {
+    border-radius: 10px;
+}
