@@ -1,31 +1,79 @@
-body {
-    background-color: #ffe066;
-    font-family: Arial;
-    text-align: center;
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#ffd84d;
 }
 
-h1 {
-    color: blue;
+.topo{
+    background:#0066ff;
+    color:white;
+    text-align:center;
+    padding:30px;
 }
 
-h2 {
-    color: orange;
+.menu{
+    background:#004ecc;
+    text-align:center;
+    padding:12px;
 }
 
-p {
-    color: black;
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
 }
 
-button {
-    background-color: blue;
-    color: white;
-    padding: 10px;
+.menu a:hover{
+    color:#ffd84d;
 }
 
-button:hover {
-    background-color: red;
+.caixa{
+    width:85%;
+    max-width:800px;
+    background:white;
+    margin:20px auto;
+    padding:20px;
+    border-radius:15px;
 }
 
-img {
-    border-radius: 10px;
+.caixa img{
+    width:100%;
+    border-radius:12px;
+}
+
+.cards{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#fff4b3;
+    flex:1;
+    min-width:150px;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+}
+
+button{
+    background:#0066ff;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff3366;
+}
+
+.rodape{
+    background:#0066ff;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
 }
