@@ -22,4 +22,4 @@ Criar um blog simples sobre o jogo Brawl Stars usando HTML, CSS e JavaScript.
 - Brawl Stars, jogo da Supercell.
 - Trailer oficial do Brawl Stars no YouTube.
 
-#alura
+#alura# Blog Brawl Stars
