@@ -12,10 +12,7 @@ Criar um blog simples sobre o jogo Brawl Stars usando HTML, CSS e JavaScript.
 
 ## Como usar
 
-1. Abra o arquivo `index.html`.
-2. Leia os posts do blog.
-3. Assista ao vídeo.
-4. Clique nos botões de coração e joinha.
+Abra o arquivo `index.html`, leia os posts, assista ao vídeo e clique nos botões de coração e joinha.
 
 ## Referências
 
