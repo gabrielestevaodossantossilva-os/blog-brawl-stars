@@ -1,79 +1,65 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog Brawl Stars</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<main>
 
-<div class="topo">
-  <h1>Blog Brawl Stars</h1>
-  <p>Curiosidades, personagens e modos de jogo.</p>
-</div>
+  <article>
+    <img src="https://images.openai.com/static-rsc-4/8sBcI8MOfEa0R4QX2VfQ4KywXecFf0lJ_4Z9dJsl6QkM2L2kWkK2QjvJvOQH5lV7VQbL2z3i8N3V1Jm2.jpg"
+      alt="Brawl Stars">
 
-<div class="menu">
-  <a href="#sobre">Sobre</a>
-  <a href="#brawlers">Brawlers</a>
-  <a href="#video">Vídeo</a>
-</div>
+    <div>
+      <h2>O que é Brawl Stars?</h2>
 
-<div class="caixa" id="sobre">
-  <h2>O que é Brawl Stars?</h2>
+      <p class="artigo-autor">Por: Gabriel Estevão</p>
 
-  <img src="https://images.openai.com/static-rsc-4/8sBcI8MOfEa0R4QX2VfQ4KywXecFf0lJ_4Z9dJsl6QkM2L2kWkK2QjvJvOQH5lV7VQbL2z3i8N3V1Jm2.jpg">
+      <p>
+        Brawl Stars é um jogo da Supercell. No jogo existem vários personagens,
+        chamados Brawlers, e muitos modos de jogo para jogar sozinho ou com amigos.
+      </p>
 
-  <p>
-    Brawl Stars é um jogo da Supercell com vários personagens chamados Brawlers.
-    O objetivo é ganhar partidas e conquistar troféus.
-  </p>
-</div>
-
-<div class="caixa" id="brawlers">
-  <h2>Meus Brawlers Favoritos</h2>
-
-  <div class="cards">
-
-    <div class="card">
-      <h3>Mortis</h3>
-      <p>Rápido e muito bom para ataques de perto.</p>
+      <button onclick="curtir()">👍 Curtir <span id="likes">0</span></button>
     </div>
+  </article>
 
-    <div class="card">
-      <h3>Spike</h3>
-      <p>Lança espinhos e causa dano em área.</p>
+  <article>
+    <img src="https://images.openai.com/static-rsc-4/8sBcI8MOfEa0R4QX2VfQ4KywXecFf0lJ_4Z9dJsl6QkM2L2kWkK2QjvJvOQH5lV7VQbL2z3i8N3V1Jm2.jpg"
+      alt="Brawl Stars">
+
+    <div>
+      <h2>Meus Brawlers Favoritos</h2>
+
+      <p class="artigo-autor">Por: Gabriel Estevão</p>
+
+      <p>
+        Os meus Brawlers favoritos são Mortis, Spike, Surge e Buzz.
+        Cada um tem habilidades diferentes e deixa as partidas mais divertidas.
+      </p>
     </div>
+  </article>
 
-    <div class="card">
-      <h3>Surge</h3>
-      <p>Fica mais forte durante a partida.</p>
+  <article>
+    <img src="https://images.openai.com/static-rsc-4/8sBcI8MOfEa0R4QX2VfQ4KywXecFf0lJ_4Z9dJsl6QkM2L2kWkK2QjvJvOQH5lV7VQbL2z3i8N3V1Jm2.jpg"
+      alt="Brawl Stars">
+
+    <div>
+      <h2>Modos de Jogo</h2>
+
+      <p class="artigo-autor">Por: Gabriel Estevão</p>
+
+      <p>
+        Alguns modos de jogo são Combate, Pique-Gema, Fute-Brawl e Roubo.
+        Cada modo tem um objetivo diferente para vencer.
+      </p>
     </div>
+  </article>
 
-  </div>
-</div>
+  <article>
+    <div>
+      <h2>Vídeo do Brawl Stars</h2>
 
-<div class="caixa" id="video">
-  <h2>Trailer do jogo</h2>
+      <iframe width="100%" height="315"
+        src="https://www.youtube.com/embed/CaryjOdYFa0"
+        title="Brawl Stars"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </article>
 
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/CaryjOdYFa0"
-    allowfullscreen></iframe>
-</div>
-
-<div class="caixa">
-  <h2>Gostou do blog?</h2>
-
-  <button onclick="curtir()">Curtir</button>
-
-  <p id="likes">Likes: 0</p>
-</div>
-
-<div class="rodape">
-  <p>Projeto feito em HTML, CSS e JavaScript.</p>
-</div>
-
-<script src="script.js"></script>
-
-</body>
-</html>
+</main>
