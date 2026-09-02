@@ -1,55 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Blog Brawl Stars</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Brawl Stars</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Blog Brawl Stars</h1>
+<div class="topo">
+  <h1>Blog Brawl Stars</h1>
+  <p>Curiosidades, personagens e modos de jogo.</p>
+</div>
 
-    <p>Esse blog fala sobre o jogo Brawl Stars.</p>
+<div class="menu">
+  <a href="#sobre">Sobre</a>
+  <a href="#brawlers">Brawlers</a>
+  <a href="#video">Vídeo</a>
+</div>
 
-    <h2>O que é Brawl Stars?</h2>
+<div class="caixa" id="sobre">
+  <h2>O que é Brawl Stars?</h2>
 
-    <img src="https://images.openai.com/static-rsc-4/8sBcI8MOfEa0R4QX2VfQ4KywXecFf0lJ_4Z9dJsl6QkM2L2kWkK2QjvJvOQH5lV7VQbL2z3i8N3V1Jm2.jpg" alt="Brawl Stars" width="350">
+  <img src="https://images.openai.com/static-rsc-4/8sBcI8MOfEa0R4QX2VfQ4KywXecFf0lJ_4Z9dJsl6QkM2L2kWkK2QjvJvOQH5lV7VQbL2z3i8N3V1Jm2.jpg">
 
-    <p>
-        Brawl Stars é um jogo da Supercell com vários personagens e modos de jogo.
-    </p>
+  <p>
+    Brawl Stars é um jogo da Supercell com vários personagens chamados Brawlers.
+    O objetivo é ganhar partidas e conquistar troféus.
+  </p>
+</div>
 
-    <h2>Meus Brawlers favoritos</h2>
+<div class="caixa" id="brawlers">
+  <h2>Meus Brawlers Favoritos</h2>
 
-    <ul>
-        <li>Mortis</li>
-        <li>Spike</li>
-        <li>Surge</li>
-        <li>Buzz</li>
-    </ul>
+  <div class="cards">
 
-    <h2>Vídeo do jogo</h2>
+    <div class="card">
+      <h3>Mortis</h3>
+      <p>Rápido e muito bom para ataques de perto.</p>
+    </div>
 
-    <iframe width="350" height="200"
-        src="https://www.youtube.com/embed/CaryjOdYFa0"
-        title="Brawl Stars"
-        allowfullscreen>
-    </iframe>
+    <div class="card">
+      <h3>Spike</h3>
+      <p>Lança espinhos e causa dano em área.</p>
+    </div>
 
-    <h2>Gostou do blog?</h2>
+    <div class="card">
+      <h3>Surge</h3>
+      <p>Fica mais forte durante a partida.</p>
+    </div>
 
-    <button onclick="curtir()">Curtir</button>
+  </div>
+</div>
 
-    <p id="likes">Likes: 0</p>
+<div class="caixa" id="video">
+  <h2>Trailer do jogo</h2>
 
-    <p>
-        Site oficial:
-        <a href="https://supercell.com/en/games/brawlstars/" target="_blank">
-            Brawl Stars
-        </a>
-    </p>
+  <iframe width="100%" height="315"
+    src="https://www.youtube.com/embed/CaryjOdYFa0"
+    allowfullscreen></iframe>
+</div>
 
-    <script src="script.js"></script>
+<div class="caixa">
+  <h2>Gostou do blog?</h2>
+
+  <button onclick="curtir()">Curtir</button>
+
+  <p id="likes">Likes: 0</p>
+</div>
+
+<div class="rodape">
+  <p>Projeto feito em HTML, CSS e JavaScript.</p>
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
